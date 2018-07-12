@@ -1,0 +1,38 @@
+{
+  "name": "gallery",
+  "version": "0.0.1",
+  "description": "A generic React component to show a placeholder in place of an image while the image is loading and replace the placeholder with the image when the image has loaded.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-live": "webpack --progress -w",
+    "build-main": "webpack --progress",
+    "build-prod": "set NODE_ENV=production && webpack --progress -p",
+    "build": "npm run build-main"
+  },
+  "author": "krishcdbry",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-dom": "^16.2.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.10.0"
+  }
+}
